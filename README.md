@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Analysis Tools
 
 This contains codes of the following functionality: 
@@ -34,7 +33,7 @@ This contains codes of the following functionality:
         negatives (FN), and false positives (FP) resulting from comparing the predicted object to all ground truth objects.
         
         h<sub>&theta;</sub>(x)
-       ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+       ![F_\beta=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
         
     - If `True`, save the tp, fp, fn, fp information into a dict
