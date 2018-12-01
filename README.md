@@ -33,7 +33,7 @@ This contains codes of the following functionality:
         - At each threshold value t, the F2 Score value is calculated based on the number of true positives (TP), false 
         negatives (FN), and false positives (FP) resulting from comparing the predicted object to all ground truth object
                         
-            ![equation_f2](https://latex.codecogs.com/svg.latex?\F_\beta(t)=\frac{(1+\beta^2)\cdotTP(t)}{(1+\beta^2)\cdotTP(t)+\beta^2\cdotFN(t)+FP(t)})
+            ![equation_f2](https://latex.codecogs.com/svg.latex?\\F_\beta(t)=\frac{(1+\beta^2)\cdotTP(t)}{(1+\beta^2)\cdotTP(t)+\beta^2\cdotFN(t)+FP(t)})
         
     - If `True`, save the tp, fp, fn, fp information into a dict
     
